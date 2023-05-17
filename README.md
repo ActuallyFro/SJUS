@@ -5,10 +5,6 @@ Navbar Example
 --------------
 
 ```html
-<head>
-    <link href="https://raw.githubusercontent.com/ActuallyFro/SJUS/main/styles/ScrollToTop.css" rel="stylesheet">
-</head>
-
 <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
@@ -50,7 +46,7 @@ Navbar Example
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
-<script src="https://raw.githubusercontent.com/ActuallyFro/SJUS/main/scripts/DarkModeSwitch.js"></script>
+<script src="./scripts/SJUS_1-0-0_DarkModeSwitch.js"></script>
 ```
 
 
@@ -58,8 +54,13 @@ Scroll to Top Button
 --------------------
 
 ```html
-<button onclick="scrollPageToTopOfPage()" id="scrollButtonToTop" title="Go to top">Top</button>
+<head>
+    <link href="./styles/SJUS_1-0-0_ScrollToTop.css" rel="stylesheet">
+</head>
 
-<script src="https://raw.githubusercontent.com/ActuallyFro/SJUS/main/scripts/ScrollToTopButton.js"></script>
+<body>
+    <button onclick="scrollPageToTopOfPage()" id="scrollButtonToTop" title="Go to top">Top</button>
+
+    <script src="./scripts/SJUS_1-0-0_ScrollToTopButton.js"></script>
+<body>
 ```
- 
